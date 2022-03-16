@@ -151,7 +151,7 @@ void setup() {
   ads.setGain(GAIN_TWOTHIRDS);
   if (!ads.begin()) {
     Serial.println("Failed to initialize ADS.");
-    while (1);
+    //while (1);
   }
   lcd.init();                      // initialize the lcd 
   lcd.backlight();
