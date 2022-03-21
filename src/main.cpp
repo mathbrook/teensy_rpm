@@ -121,7 +121,7 @@ void setup() {
     Serial.println("Oops ... unable to initialize the LSM9DS1. Check your wiring!");
     //while (1);
   }
-  lsm.setupAccel(lsm.LSM9DS1_ACCELRANGE_2G);
+  lsm.setupAccel(lsm.LSM9DS1_ACCELRANGE_4G);
   //lsm.setupMag(lsm.LSM9DS1_MAGGAIN_4GAUSS);
   lsm.setupGyro(lsm.LSM9DS1_GYROSCALE_245DPS);
   //check sd card for existing logs
